@@ -1,0 +1,183 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: "139AD7746EBBC736"
+	icon: "minecraft:grass_block"
+	id: "4200CF89B32FD452"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["44BC4D7931F8F0D9"]
+			id: "4C3EA6FF41DAD42E"
+			tasks: [{
+				id: "32F7D8C67868ECD5"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3EA6FF41DAD42E"]
+			id: "544525E060831607"
+			tasks: [{
+				id: "3BF8E47DC82CECC2"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3EA6FF41DAD42E"]
+			id: "4367DEB20DFE0742"
+			tasks: [{
+				id: "614E3CCB9E33CC66"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"544525E060831607"
+				"4367DEB20DFE0742"
+			]
+			id: "1C1D0D91355B0217"
+			tasks: [{
+				id: "33783DFAAC37F674"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1C1D0D91355B0217"
+				"37A9EAF595E563D0"
+			]
+			id: "47D8E5AE18E1C97A"
+			tasks: [{
+				id: "3E30DDA1F28B1819"
+				item: {
+					Count: 1b
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3AB0A9F2CD88E051"
+				"375AA57E0E521C3F"
+			]
+			id: "01CF6DCB2442BAB3"
+			tasks: [{
+				id: "56B3FA1AE6155B10"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["375AA57E0E521C3F"]
+			id: "3514CCA9C779EE08"
+			tasks: [{
+				id: "30B8FD5DCE98F49F"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["44BC4D7931F8F0D9"]
+			id: "37A9EAF595E563D0"
+			tasks: [{
+				id: "4CCE1472DEE397CF"
+				item: "minecraft:dirt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["47D8E5AE18E1C97A"]
+			id: "375AA57E0E521C3F"
+			tasks: [
+				{
+					id: "5A39812FFBEECC6B"
+					item: "kubejs:stone_pebble"
+					type: "item"
+				}
+				{
+					id: "61958008084A12BA"
+					item: "kubejs:andesite_pebble"
+					type: "item"
+				}
+				{
+					id: "7BF8758FA493A9EE"
+					item: "kubejs:diorite_pebble"
+					type: "item"
+				}
+				{
+					id: "36D6E5821A63B00C"
+					item: "kubejs:granite_pebble"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4C3EA6FF41DAD42E"]
+			id: "3AB0A9F2CD88E051"
+			tasks: [{
+				id: "1F96740F67BBDD4C"
+				item: "kubejs:wooden_hammer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01CF6DCB2442BAB3"]
+			id: "3A756A7B3F996A0D"
+			tasks: [{
+				id: "39762B333F74789E"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3A756A7B3F996A0D"]
+			id: "6539B15655693D3F"
+			tasks: [{
+				id: "2B29679BAAEFDF45"
+				item: "gtceu:crushed_iron_ore"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+	]
+	title: "Getting Started"
+}

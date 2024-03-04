@@ -1,0 +1,47 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "welcome"
+	group: ""
+	id: "5F33B999BAA3ED17"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "44BC4D7931F8F0D9"
+			rewards: [
+				{
+					id: "3E68634652762442"
+					item: "minecraft:cat_spawn_egg"
+					type: "item"
+				}
+				{
+					id: "2251E772BAFF31EA"
+					item: "minecraft:wolf_spawn_egg"
+					type: "item"
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "13E783D009D59041"
+				title: "welcome to mnh"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: ["Discord invite link: https://discord.gg/q7a6whJtv7"]
+			id: "3AD1491DC9E8064F"
+			size: 2.0d
+			tasks: [{
+				id: "4D7F283EEF4A8518"
+				title: "discord"
+				type: "checkmark"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	title: "Welcome"
+}

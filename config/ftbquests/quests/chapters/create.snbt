@@ -1,0 +1,64 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: "139AD7746EBBC736"
+	icon: "create:andesite_casing"
+	id: "7A445B0F529E3C10"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"6539B15655693D3F"
+				"3514CCA9C779EE08"
+			]
+			id: "178B4C7B8E1E8E33"
+			tasks: [{
+				id: "5C961E7D7B6F6D6B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"6539B15655693D3F"
+				"50B0A475BB63E13C"
+				"3514CCA9C779EE08"
+				"178B4C7B8E1E8E33"
+			]
+			id: "3CF80B565EBF4A82"
+			tasks: [{
+				id: "68A9A1AFB8395E15"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3514CCA9C779EE08"]
+			id: "50B0A475BB63E13C"
+			tasks: [{
+				id: "3DBF122E137F2F0D"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			id: "50F155D27B5CFD0E"
+			tasks: [{
+				id: "773E6309521D1E85"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "Create"
+}

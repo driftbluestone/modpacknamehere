@@ -85,15 +85,42 @@ ServerEvents.recipes(event => {
         C: 'create:mechanical_piston',
         D: 'kubejs:andesite_machine_hull',
         E: 'create:shaft'
+        
     })
-//broken code i cant figure out :lleettss:
-    // event.recipes.gtceu.kinetic_crusher('cobble_to_gravel')             
-    // .itemInputs('minecraft:cobblestone')
-    // .itemOutputs('minecraft:gravel')
-    // .duration(80)
-    // .EUt(0)
-    // .su(256)
-    // .rpm(16)
+    event.shaped('gtceu:ulv_kinetic_crusher', [
+        'ABA',
+        'GDC',
+        'EFE'
+    ],{
+        A: 'create:shaft',
+        B: 'create:mechanical_piston',
+        C: 'create:millstone',
+        D: 'kubejs:andesite_machine_hull',
+        E: 'create:cogwheel',
+        F: 'minecraft:anvil',
+        G: 'create:mechanical_drill'
+    })
+     event.recipes.gtceu.kinetic_crusher('cobble_to_gravel')             
+     .itemInputs('minecraft:cobblestone')
+     .itemOutputs('minecraft:gravel')
+     .duration(80)
+     .EUt(0)
+     .inputStress(1024)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('gravel_to_sand')             
+     .itemInputs('minecraft:gravel')
+     .itemOutputs('minecraft:sand')
+     .duration(80)
+     .EUt(0)
+     .inputStress(1024)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('sand_to_dust')             
+     .itemInputs('minecraft:sand')
+     .itemOutputs('kubejs:dust')
+     .duration(80)
+     .EUt(0)
+     .inputStress(2048)
+     .rpm(16)
 })
 
 

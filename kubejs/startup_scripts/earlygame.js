@@ -14,6 +14,13 @@ StartupEvents.registry("block", (event) => {
         .tagBlock("mineable/axe")
         .tagBlock("mineable/pickaxe")
     })
+StartupEvents.registry("block", (event) => {
+        event.create("dust")
+        .displayName("Dust")
+        .hardness(1.0)
+        .resistance(1.0)
+        .tagBlock("mineable/shovel")
+    })
 
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
         event.create('kinetic_crusher')

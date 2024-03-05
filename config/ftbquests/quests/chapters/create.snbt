@@ -50,6 +50,7 @@
 			y: -2.0d
 		}
 		{
+			dependencies: ["3CF80B565EBF4A82"]
 			id: "50F155D27B5CFD0E"
 			tasks: [{
 				id: "773E6309521D1E85"
@@ -57,6 +58,70 @@
 				type: "item"
 			}]
 			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"50F155D27B5CFD0E"
+				"0B4D83C65800DA31"
+			]
+			id: "422331AC5169EB9B"
+			tasks: [{
+				id: "2DF37996A7C9FD02"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3CF80B565EBF4A82"]
+			id: "0B4D83C65800DA31"
+			tasks: [{
+				id: "052CCEA3FC1CDB6F"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3CF80B565EBF4A82"
+				"422331AC5169EB9B"
+			]
+			id: "100F9180CC4BCFE4"
+			tasks: [{
+				id: "15BBF12D28295544"
+				item: "createdeco:andesite_sheet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"100F9180CC4BCFE4"
+				"0B4D83C65800DA31"
+			]
+			id: "6BE5147B1CA0F58F"
+			tasks: [{
+				id: "0C17EC0F1B34A4D5"
+				item: "kubejs:andesite_machine_hull"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6BE5147B1CA0F58F"]
+			id: "076CBB1DA0C8DE97"
+			tasks: [{
+				id: "1A3D80C74AF081B6"
+				item: "gtceu:ulv_kinetic_sieve"
+				type: "item"
+			}]
+			x: 10.0d
 			y: 0.0d
 		}
 	]

@@ -150,7 +150,13 @@
 			id: "3AB0A9F2CD88E051"
 			tasks: [{
 				id: "1F96740F67BBDD4C"
-				item: "kubejs:wooden_hammer"
+				item: {
+					Count: 1b
+					id: "kubejs:wooden_hammer"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			x: 6.0d

@@ -54,6 +54,7 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.NON_Y_AXIS)
         .workableTieredHullRenderer("gtceu:block/machines/sifter");
 })
+
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('lp_steam_sieve', 'steam', false)
     .recipeType('steam_sieve', true, true)

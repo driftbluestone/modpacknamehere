@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "circuits"
+	group: "7ED1FE704F1E2139"
+	icon: "gtceu:wetware_processor_mainframe"
+	id: "784041E28D85A724"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "43327BF1B0C69A1F"
+			tasks: [{
+				id: "53175D6817263130"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "0C915D2976092A62"
+			tasks: [{
+				id: "7DF308F3146A7B33"
+				item: "gtceu:microchip_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "3D15975DA9EA69BB"
+			tasks: [{
+				id: "2CD40B0AF65B16BA"
+				item: "gtceu:basic_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "2F5296A3524490DB"
+			tasks: [{
+				id: "1C36C80908E10D18"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "1FB4674935152A41"
+			tasks: [{
+				id: "12C2745D9CDC2887"
+				item: "gtceu:good_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "1ED44FF8B36B6E47"
+			tasks: [{
+				id: "7447FAE3772E3A9C"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "2E48076EC9390C31"
+			tasks: [{
+				id: "064588D5BEE937F8"
+				item: "gtceu:micro_processor"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "505AF60859250807"
+			tasks: [{
+				id: "07B1A6010FA8D795"
+				item: "gtceu:micro_processor_assembly"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "55C24AABDA9DC8D8"
+			tasks: [{
+				id: "059D2B1A62165363"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			id: "1AD5C3957A520B6C"
+			tasks: [{
+				id: "166C4592B970E1ED"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			id: "03AD116674E30C74"
+			tasks: [{
+				id: "4D0761478BDF5DCF"
+				item: "gtceu:nano_processor"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "79AE4664A256E67B"
+			tasks: [{
+				id: "77E7CBAB2967A188"
+				item: "gtceu:nano_processor_assembly"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "4F1BB70CEA86AF32"
+			tasks: [{
+				id: "1C84409E6288F361"
+				item: "gtceu:nano_processor_computer"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			id: "56BC01C849459885"
+			tasks: [{
+				id: "42D3DB8C2B19F5FD"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "6303866974286C48"
+			tasks: [{
+				id: "3645CFA0BC819C04"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "508D86B34A6FDD19"
+			tasks: [{
+				id: "374E94072464952C"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			id: "107AE6FC19CA3C67"
+			tasks: [{
+				id: "5B0944F97849A5BF"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			id: "52D4DF15D8507A14"
+			tasks: [{
+				id: "6B153E620713D667"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			id: "19248F235E94CEA2"
+			tasks: [{
+				id: "301FC33D41B0B2B4"
+				item: "gtceu:crystal_processor"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			id: "0833EA28C5354712"
+			tasks: [{
+				id: "44F72859044A2460"
+				item: "gtceu:crystal_processor_assembly"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			id: "692330E6EE53151A"
+			tasks: [{
+				id: "73F5EE7E4DB3D0F9"
+				item: "gtceu:crystal_processor_computer"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			id: "5139E31D6E70ADFD"
+			tasks: [{
+				id: "19510D4ECE12F09F"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			id: "064A575C9B8F6E15"
+			tasks: [{
+				id: "7CB9B58DA70A8F27"
+				item: "gtceu:wetware_processor"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			id: "3D9C64A24CC5288A"
+			tasks: [{
+				id: "6787A6CA18653A00"
+				item: "gtceu:wetware_processor_assembly"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			id: "77C87D32715B7482"
+			tasks: [{
+				id: "5CA229BD2B6D74CC"
+				item: "gtceu:wetware_processor_computer"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			id: "68C2A39D074D1246"
+			tasks: [{
+				id: "4913CCF3BC806332"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			id: "3B5A70E059B8AB8A"
+			tasks: [{
+				id: "46F5384AB8BF440E"
+				item: "gtceu:resin_printed_circuit_board"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "31ABEE858ABDCF5C"
+			tasks: [{
+				id: "7CC2271C719D5939"
+				item: "gtceu:phenolic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "26D8C68EF8359751"
+			tasks: [{
+				id: "5E11D6796EC005CB"
+				item: "gtceu:plastic_printed_circuit_board"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "6771B6D2137EB879"
+			tasks: [{
+				id: "6B086C32B32E09EC"
+				item: "gtceu:fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "0006FAB57845AADC"
+			tasks: [{
+				id: "147ECF277FAE7F49"
+				item: "gtceu:epoxy_printed_circuit_board"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "572267FB3428B623"
+			tasks: [{
+				id: "7A9233507A252A77"
+				item: "gtceu:multilayer_fiber_reinforced_printed_circuit_board"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "4058A83E2B351E22"
+			tasks: [{
+				id: "2FE076ECF6C50372"
+				item: "gtceu:wetware_printed_circuit_board"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+	]
+	title: "Circuits"
+}

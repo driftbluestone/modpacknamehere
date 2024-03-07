@@ -1,0 +1,143 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "greg"
+	group: "7ED1FE704F1E2139"
+	icon: "gtceu:molybdenum_disilicide_coil_block"
+	id: "21BF1B9796BA19CD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1973AA7EDD8CC5DB"
+			tasks: [{
+				id: "056449B1571A5FFA"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "313563767FF4722C"
+			tasks: [{
+				id: "2C72A43157F9FCD3"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "2B193E394CDDDC0C"
+			tasks: [{
+				id: "3A27AE070038FB70"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "314CB4B1D2A84F2B"
+			tasks: [{
+				id: "2342A03CD70E4E03"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "7AE538AC9FCE8668"
+			tasks: [{
+				id: "5F585D67026E746D"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "6026D4BD8424CFC9"
+			tasks: [{
+				id: "1D190B590D7668EE"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "13C49E3304414574"
+			tasks: [{
+				id: "536E23899AC64D43"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "4AF1471BD244DF24"
+			tasks: [{
+				id: "3F2EB0012F859904"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "54F12BA789AB89F2"
+			tasks: [{
+				id: "589D203C1B1E66B2"
+				item: "gtceu:electric_blast_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "55A5ECE226805BE6"
+			tasks: [{
+				id: "7379B670747894BC"
+				item: "gtceu:multi_smelter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "2AC9B6441FB08E1E"
+			tasks: [{
+				id: "4505B6666D197DD9"
+				item: "gtceu:alloy_blast_smelter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "4186542126C9BE42"
+			tasks: [{
+				id: "4691D2CA5811D4B9"
+				item: "gtceu:mega_blast_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "0E787BC1AF73EA40"
+			tasks: [{
+				id: "2F6D37EFAE32CFEE"
+				title: "somebody add superconductors here when we add them (itll probably end up being drift)"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+	]
+	title: "Greg"
+}

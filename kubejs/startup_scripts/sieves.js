@@ -54,7 +54,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
         .rotationState(RotationState.NON_Y_AXIS)
         .workableTieredHullRenderer("gtceu:block/machines/sifter");
 })
-
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('lp_steam_sieve', 'steam', false)
     .recipeType('steam_sieve', true, true)
@@ -69,3 +68,38 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
     .rotationState(RotationState.NON_Y_AXIS)
     .workableSteamHullRenderer(true, "gtceu:block/machines/sifter")
 })  
+  StartupEvents.registry("fluid", (event) => {
+    event.create('muddy_water')
+    .thickTexture(0x964B00)
+    .bucketColor(0x964B00)
+    .displayName('Muddy Water')
+    .noBlock()
+  })
+  StartupEvents.registry("fluid", (event) => {
+    event.create('heavy_water')
+    .thickTexture(0x2389da)
+    .bucketColor(0x2389da)
+    .displayName('Heavy Water')
+    .noBlock()
+  })
+  StartupEvents.registry("fluid", (event) => {
+    event.create('tritiated_water')
+    .thickTexture(0x0f5e9c)
+    .bucketColor(0x0f5e9c)
+    .displayName('Tritiated Water')
+    .noBlock()
+  })
+  StartupEvents.registry("fluid", (event) => {
+    event.create('wastewater')
+    .thickTexture(0x964B00)
+    .bucketColor(0x964B00)
+    .displayName('Wastewater')
+    .noBlock()
+  })
+  StartupEvents.registry("fluid", (event) => {
+    event.create('polluted_water')
+    .thickTexture(0x964B00)
+    .bucketColor(0x964B00)
+    .displayName('Polluted Water')
+    .noBlock()
+  })

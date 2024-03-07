@@ -1,0 +1,197 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "miscellaneous"
+	group: "7ED1FE704F1E2139"
+	icon: "sophisticatedbackpacks:backpack"
+	id: "0E67542BE4004DDB"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4B0D02A4FD34099A"
+			tasks: [{
+				id: "698406157CB6A60B"
+				item: "cobblefordays:tier_1"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4B0D02A4FD34099A"]
+			id: "7DDBF715FE60CBC6"
+			tasks: [{
+				id: "6EB228594071B497"
+				item: "cobblefordays:tier_2"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7DDBF715FE60CBC6"]
+			id: "29825A43615E02D0"
+			tasks: [{
+				id: "7CE8014050E73C00"
+				item: "cobblefordays:tier_3"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29825A43615E02D0"]
+			id: "0D5B7ACB1CBEB604"
+			tasks: [{
+				id: "044978413CABF54B"
+				item: "cobblefordays:tier_4"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0D5B7ACB1CBEB604"]
+			id: "252ABC46BB2937BA"
+			tasks: [{
+				id: "37406B0F02D311AD"
+				item: "cobblefordays:tier_5"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "33012F084604D244"
+			tasks: [{
+				id: "5FA54D5F568EE105"
+				item: "sophisticatedbackpacks:backpack"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["33012F084604D244"]
+			id: "51E35C68D882EBEF"
+			tasks: [{
+				id: "49C22E113937289A"
+				item: "sophisticatedbackpacks:copper_backpack"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["51E35C68D882EBEF"]
+			id: "322A2FBDC809E6DA"
+			tasks: [{
+				id: "3DDF66123C87F3CA"
+				item: "sophisticatedbackpacks:iron_backpack"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["322A2FBDC809E6DA"]
+			id: "2DCDE10597C4B24C"
+			tasks: [{
+				id: "69A5A26C2174D77F"
+				item: "sophisticatedbackpacks:gold_backpack"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["2DCDE10597C4B24C"]
+			id: "06D40872F56C3C7C"
+			tasks: [{
+				id: "5E37050169A89D5B"
+				item: "sophisticatedbackpacks:diamond_backpack"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["06D40872F56C3C7C"]
+			id: "7E2BC7D7460565F2"
+			tasks: [{
+				id: "6704E931D413F73F"
+				item: "sophisticatedbackpacks:netherite_backpack"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "4D8F47B4189111E6"
+			tasks: [{
+				id: "2C72C262B030D71C"
+				item: "mysticalagriculture:inferium_furnace"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D8F47B4189111E6"]
+			id: "64FC00D1332073EC"
+			tasks: [{
+				id: "5ECDCC1165056D08"
+				item: "mysticalagriculture:prudentium_furnace"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["64FC00D1332073EC"]
+			id: "43D64853AC4ECB1F"
+			tasks: [{
+				id: "487D499390590B0E"
+				item: "mysticalagriculture:tertium_furnace"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["43D64853AC4ECB1F"]
+			id: "325D4575CDD6CFD7"
+			tasks: [{
+				id: "2BCA4D0AA0F42041"
+				item: "mysticalagriculture:imperium_furnace"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["325D4575CDD6CFD7"]
+			id: "6EF4D3DAD3E0A4B2"
+			tasks: [{
+				id: "5B7F79A909CE7C5C"
+				item: "mysticalagriculture:supremium_furnace"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6EF4D3DAD3E0A4B2"]
+			id: "41F7B087E7C83B10"
+			tasks: [{
+				id: "4E8790E0A1C791A5"
+				item: "mysticalagriculture:awakened_supremium_furnace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	title: "Miscellaneous"
+}

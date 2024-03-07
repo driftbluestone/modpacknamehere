@@ -1,3 +1,6 @@
 {
-	chapter_groups: [{ id: "139AD7746EBBC736", title: "Pre-Electricity" }]
+	chapter_groups: [
+		{ id: "139AD7746EBBC736", title: "Pre-Electricity" }
+		{ id: "7ED1FE704F1E2139", title: "Progression" }
+	]
 }

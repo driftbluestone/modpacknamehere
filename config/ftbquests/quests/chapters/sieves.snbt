@@ -1,0 +1,643 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "sieves"
+	group: "7ED1FE704F1E2139"
+	icon: "gtceu:lv_sieve"
+	id: "3556EA6A35840796"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0F906FE33099BB43"
+			tasks: [{
+				id: "2EDD5745D7BEF3DD"
+				item: "kubejs:string_mesh"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "595E7F4C52B97D69"
+			tasks: [{
+				id: "468B499FA2D3AB0B"
+				item: "kubejs:flint_mesh"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "1906CE9E71CE9103"
+			tasks: [{
+				id: "749E0A9FE3838DCA"
+				item: "kubejs:andesite_mesh"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "28D0F6DE2C475AC9"
+			tasks: [{
+				id: "5242EA8CBECD4C37"
+				item: "kubejs:copper_mesh"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			id: "096814BCE5A87E17"
+			tasks: [{
+				id: "6DA488B0D39C67A8"
+				item: "kubejs:zinc_mesh"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "77C14E981566B9DA"
+			tasks: [{
+				id: "67446373466FD204"
+				item: "kubejs:iron_mesh"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			id: "4A3EA5400767D562"
+			tasks: [{
+				id: "1850AD4D3DE04164"
+				item: "kubejs:brass_mesh"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			id: "507203DF0E1F2CCF"
+			tasks: [{
+				id: "6C7FBAF29801AF0B"
+				item: "kubejs:bronze_mesh"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "36B8A22B9A8339F1"
+			tasks: [{
+				id: "432A64326820B210"
+				item: "kubejs:rose_gold_mesh"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			id: "6BD9F37E92240672"
+			tasks: [{
+				id: "062C89C9CF50D635"
+				item: "kubejs:quartz_mesh"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.0d
+		}
+		{
+			id: "6B2E568666B84D32"
+			tasks: [{
+				id: "05FD4BF51FA916F9"
+				item: "kubejs:rose_quartz_mesh"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			id: "686A3397F91C335E"
+			tasks: [{
+				id: "4719CA6D2F6D96B1"
+				item: "kubejs:diamond_mesh"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			id: "75FF81D559A015AE"
+			tasks: [{
+				id: "644825D76AA964B5"
+				item: "kubejs:emerald_mesh"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			id: "5B2FB45A06D27BC7"
+			tasks: [{
+				id: "291BD02C0090FB1A"
+				item: "kubejs:netherite_mesh"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "03D8BB3C5C02199D"
+			tasks: [{
+				id: "50A823C4F839C634"
+				item: "kubejs:trinium_mesh"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "0B973ECFDBA269C7"
+			tasks: [{
+				id: "172D15ACDE74C98E"
+				item: "kubejs:darmstadtium_mesh"
+				type: "item"
+			}]
+			x: 17.0d
+			y: 0.0d
+		}
+		{
+			id: "37E67B97A0D30BB3"
+			tasks: [{
+				id: "10F3DE5BF1F09675"
+				item: "kubejs:tritanium_mesh"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			id: "33682EFBE1A9A723"
+			tasks: [{
+				id: "2BD503EA8C63266F"
+				item: "kubejs:neutronium_mesh"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			id: "4CCBB4E283174213"
+			tasks: [{
+				id: "16539213B986AEF5"
+				item: "kubejs:void_mesh"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 0.0d
+		}
+		{
+			id: "1DC7A9EBDC86B84F"
+			tasks: [{
+				id: "144F637708F71D9D"
+				item: "kubejs:signalum_mesh"
+				type: "item"
+			}]
+			x: 21.0d
+			y: 0.0d
+		}
+		{
+			id: "6F49FB1C049C9903"
+			tasks: [{
+				id: "095C3D7A424B299B"
+				item: "kubejs:lumium_mesh"
+				type: "item"
+			}]
+			x: 22.0d
+			y: 0.0d
+		}
+		{
+			id: "7ED6A9DDD8EF20B1"
+			tasks: [{
+				id: "548E80112233F312"
+				item: "kubejs:enderium_mesh"
+				type: "item"
+			}]
+			x: 23.0d
+			y: 0.0d
+		}
+		{
+			id: "346A290B8E694900"
+			tasks: [{
+				id: "5F94A97863BE217F"
+				item: "kubejs:radioactive_mesh"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			id: "4DCD9B9130ECCF27"
+			tasks: [{
+				id: "51A4B07FEA57337D"
+				item: "kubejs:naquadah_mesh"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 0.0d
+		}
+		{
+			id: "52EA1F06870853C3"
+			tasks: [{
+				id: "4BAD47360F1972A0"
+				item: "kubejs:osmiridium_mesh"
+				type: "item"
+			}]
+			x: 24.0d
+			y: 0.0d
+		}
+		{
+			id: "37CC635F34B0DC15"
+			tasks: [{
+				id: "7031330AC04D96C1"
+				item: "kubejs:titanium_mesh"
+				type: "item"
+			}]
+			x: 25.0d
+			y: 0.0d
+		}
+		{
+			id: "0E75444A6A3BFF81"
+			tasks: [{
+				id: "1BBC2AC06BE54A9B"
+				item: "kubejs:tungstensteel_mesh"
+				type: "item"
+			}]
+			x: 26.0d
+			y: 0.0d
+		}
+		{
+			id: "0748160DE84970CB"
+			tasks: [{
+				id: "0423E5FFC40E4D8C"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "171E1DB90B7F8941"
+			tasks: [{
+				id: "2E4456A2F88FFB2F"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			id: "10ACBB42C89FE858"
+			tasks: [{
+				id: "5B4CB7D02081839F"
+				item: "kubejs:dust"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			id: "465EDE57C717AB5F"
+			tasks: [{
+				id: "6C6809DBED32B82C"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			id: "484F51F5D96AF8F8"
+			tasks: [{
+				id: "677A7D7172DF9D06"
+				item: "gtceu:ulv_kinetic_sieve"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			id: "4794782CF6C28BF7"
+			tasks: [{
+				id: "140FF836B0DCB6E3"
+				item: "gtceu:lp_lp_steam_sieve"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "0394041C61F8CDBC"
+			tasks: [{
+				id: "79BF8CE4E7366DE9"
+				item: "gtceu:hp_hp_steam_sieve"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			id: "44779AF6D65D6BC5"
+			tasks: [{
+				id: "45BF92A286B8DEBB"
+				item: "gtceu:lv_sieve"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			id: "38D131E862EDD355"
+			tasks: [{
+				id: "3134F7747F3C5F07"
+				item: "gtceu:mv_sieve"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			id: "48D15836A4A50BE9"
+			tasks: [{
+				id: "24720AEFEDF9017E"
+				item: "gtceu:hv_sieve"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			id: "7631EA070607FB5D"
+			tasks: [{
+				id: "3353805BEB7266B8"
+				item: "gtceu:ev_sieve"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			id: "460B6FD81BA77ADE"
+			tasks: [{
+				id: "0E3F4B554FF3946C"
+				item: "gtceu:iv_sieve"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			id: "3AC35F86A05F0A22"
+			tasks: [{
+				id: "52EC36B75D7498AF"
+				item: "gtceu:luv_sieve"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			id: "65F7040509AAD5EE"
+			tasks: [{
+				id: "2C6CB4A3726E38A7"
+				item: "gtceu:zpm_sieve"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			id: "71E71556013B1BD1"
+			tasks: [{
+				id: "75561E1B2DDF8968"
+				item: "gtceu:uv_sieve"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			id: "67F0562AC8123121"
+			tasks: [{
+				id: "6630734A9543F4C2"
+				item: "gtceu:uhv_sieve"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "26C075618BAD4B9C"
+			tasks: [{
+				id: "73D48DA9A1D1C22F"
+				item: "gtceu:uev_sieve"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			id: "078F7242AD192DBB"
+			tasks: [{
+				id: "203BB9CAB3217E12"
+				item: "gtceu:uiv_sieve"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.0d
+		}
+		{
+			id: "172FE87CD046914F"
+			tasks: [{
+				id: "4878AA654DBC56F0"
+				item: "gtceu:uxv_sieve"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			id: "4B0625CD7D9EB98D"
+			tasks: [{
+				id: "78A3E4D13027A786"
+				item: "gtceu:opv_sieve"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			id: "5D3F7A5C6BBE4927"
+			tasks: [{
+				id: "541A1CF30DAD7F17"
+				item: "gtceu:max_sieve"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			id: "7B48F37E2B998C79"
+			tasks: [{
+				id: "5E1F212EC3ADD66E"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "22F35F10E9612E02"
+			tasks: [{
+				id: "2026298F67AAFFF7"
+				item: "gtceu:distilled_water_bucket"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "0FE2C708C79C15E7"
+			tasks: [{
+				id: "6A61A9E893DE4915"
+				item: "gtceu:salt_water_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			id: "51B5B75349F08F14"
+			tasks: [{
+				id: "06DB3480ACCA5A64"
+				item: "kubejs:crushed_andesite"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 1.0d
+		}
+		{
+			id: "105572AD3A14D2F7"
+			tasks: [{
+				id: "050BBBBBBDE339C9"
+				item: "kubejs:crushed_diorite"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			id: "46DEA246334CA4BD"
+			tasks: [{
+				id: "27FED1971CF81C25"
+				item: "kubejs:crushed_granite"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			id: "1C9B6910E9990911"
+			tasks: [{
+				id: "7C615A169C957597"
+				item: "kubejs:crushed_basalt"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			id: "5C1B37348811B071"
+			tasks: [{
+				id: "0A363C05387FCE5F"
+				item: "kubejs:crushed_blackstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 1.0d
+		}
+		{
+			id: "24C969AB9914D0C8"
+			tasks: [{
+				id: "5B2C8DC71ED25313"
+				item: "kubejs:crushed_netherrack"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			id: "561D3CDE07C578BA"
+			tasks: [{
+				id: "0554FE57F6E10C6A"
+				item: "kubejs:crushed_endstone"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			id: "666E15512B8EC21E"
+			tasks: [{
+				id: "16ADCBED736E794C"
+				item: "kubejs:muddy_water_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			id: "406646240DCE7C4F"
+			tasks: [{
+				id: "5DC3554C9FFBA7BF"
+				item: "kubejs:heavy_water_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			id: "5747EEF831FA3F68"
+			tasks: [{
+				id: "2908E7D6954DB1AF"
+				item: "kubejs:tritiated_water_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			id: "665BB039CAC49271"
+			tasks: [{
+				id: "42B539EDC5239493"
+				item: "kubejs:polluted_water_bucket"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			id: "663983CB9AD2B496"
+			tasks: [{
+				id: "3CEC1064E114CE68"
+				item: "kubejs:wastewater_bucket"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+	]
+	title: "Sieves"
+}

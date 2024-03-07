@@ -100,6 +100,16 @@ ServerEvents.recipes(event => {
         F: 'minecraft:anvil',
         G: 'create:mechanical_drill'
     })
+    event.shaped('cobblefordays:tier_1', [
+        'AAA',
+        'BDC',
+        'AAA'
+    ],{
+        A: '#minecraft:logs',
+        B: 'minecraft:water_bucket',
+        D: 'minecraft:lava_bucket',
+        E: 'minecraft:glass'
+    })
      event.recipes.gtceu.kinetic_crusher('cobble_to_gravel')             
      .itemInputs('minecraft:cobblestone')
      .itemOutputs('minecraft:gravel')
@@ -120,6 +130,55 @@ ServerEvents.recipes(event => {
      .duration(80)
      .EUt(0)
      .inputStress(2048)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('crush_andesite')             
+     .itemInputs('minecraft:andesite')
+     .itemOutputs('kubejs:crushed_andesite')
+     .duration(80)
+     .EUt(0)
+     .inputStress(1024)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('crush_diorite')             
+     .itemInputs('minecraft:diorite')
+     .itemOutputs('kubejs:crushed_diorite')
+     .duration(80)
+     .EUt(0)
+     .inputStress(1024)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('crush_granite')             
+     .itemInputs('minecraft:granite')
+     .itemOutputs('kubejs:crushed_granite')
+     .duration(80)
+     .EUt(0)
+     .inputStress(1024)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('crush_blackstone')             
+     .itemInputs('minecraft:blackstone')
+     .itemOutputs('kubejs:crushed_blackstone')
+     .duration(80)
+     .EUt(0)
+     .inputStress(2048)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('crush_basalt')             
+     .itemInputs('minecraft:basalt')
+     .itemOutputs('kubejs:crushed_basalt')
+     .duration(80)
+     .EUt(0)
+     .inputStress(2048)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('crushed_netherrack')             
+     .itemInputs('minecraft:netherrack')
+     .itemOutputs('kubejs:crushed_netherrack')
+     .duration(80)
+     .EUt(0)
+     .inputStress(512)
+     .rpm(16)
+     event.recipes.gtceu.kinetic_crusher('crush_end_stone')             
+     .itemInputs('minecraft:end_stone')
+     .itemOutputs('kubejs:crushed_endstone')
+     .duration(80)
+     .EUt(0)
+     .inputStress(4096)
      .rpm(16)
 })
 

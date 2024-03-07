@@ -61,10 +61,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"50F155D27B5CFD0E"
-				"0B4D83C65800DA31"
-			]
+			dependencies: ["50F155D27B5CFD0E"]
 			id: "422331AC5169EB9B"
 			tasks: [{
 				id: "2DF37996A7C9FD02"
@@ -83,7 +80,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: -2.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -97,7 +94,7 @@
 				type: "item"
 			}]
 			x: 6.0d
-			y: 2.0d
+			y: -2.0d
 		}
 		{
 			dependencies: [
@@ -111,18 +108,291 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 0.0d
+			y: -2.0d
 		}
 		{
-			dependencies: ["6BE5147B1CA0F58F"]
+			dependencies: [
+				"6BE5147B1CA0F58F"
+				"1AF81A2575D14DC8"
+			]
+			icon: "gtceu:ulv_kinetic_sieve"
 			id: "076CBB1DA0C8DE97"
 			tasks: [{
 				id: "1A3D80C74AF081B6"
 				item: "gtceu:ulv_kinetic_sieve"
 				type: "item"
 			}]
+			x: 12.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["50F155D27B5CFD0E"]
+			id: "0AFDF5F26347A52F"
+			tasks: [{
+				id: "12F2911E5A4C0649"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["50F155D27B5CFD0E"]
+			id: "4FB11C16BD9C7296"
+			tasks: [{
+				id: "6B21C99C87AC9628"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6BE5147B1CA0F58F"
+				"0AFDF5F26347A52F"
+				"4FB11C16BD9C7296"
+			]
+			id: "3BD00B6F4D892693"
+			tasks: [{
+				id: "424AE7B347F7DAE0"
+				item: "gtceu:ulv_kinetic_crusher"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3BD00B6F4D892693"]
+			id: "70A82DA123665820"
+			tasks: [{
+				id: "54A8EB2E617D4CD0"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["70A82DA123665820"]
+			id: "4283941036C8654D"
+			tasks: [{
+				id: "791502D6E83DBDA2"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4283941036C8654D"]
+			id: "759F22E4BF8E8B0B"
+			tasks: [{
+				id: "124B962DF0AD7DCE"
+				item: "kubejs:dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["076CBB1DA0C8DE97"]
+			id: "23B0118E9495340C"
+			tasks: [{
+				id: "5D80299BB5D10297"
+				item: "gtceu:crushed_iron_ore"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["076CBB1DA0C8DE97"]
+			id: "77B90919EAD6E28D"
+			tasks: [{
+				id: "24377443BD4141E6"
+				item: "gtceu:impure_copper_dust"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["076CBB1DA0C8DE97"]
+			id: "716E6F8E1E67548A"
+			tasks: [{
+				id: "67D4A938AAFA942D"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1AF81A2575D14DC8"
+				"716E6F8E1E67548A"
+			]
+			id: "6E69933C0305C19E"
+			tasks: [{
+				id: "69794AC560148580"
+				item: "kubejs:flint_mesh"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1C1D0D91355B0217"]
+			id: "1AF81A2575D14DC8"
+			tasks: [{
+				id: "39FF1DD2096B47EA"
+				item: "kubejs:string_mesh"
+				type: "item"
+			}]
 			x: 10.0d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"23B0118E9495340C"
+				"6E69933C0305C19E"
+			]
+			id: "464EB524D4F8F7EE"
+			tasks: [{
+				id: "30F9CD62E5C22287"
+				item: "kubejs:iron_mesh"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5B1028607227FD4F"]
+			id: "005F1814F28F65D0"
+			tasks: [{
+				id: "2A18494908BB4AA5"
+				item: "kubejs:copper_mesh"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"26A9371AC6A82341"
+				"77B90919EAD6E28D"
+			]
+			id: "5B1028607227FD4F"
+			tasks: [{
+				id: "19712655DA7B80C7"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["23B0118E9495340C"]
+			id: "26A9371AC6A82341"
+			tasks: [{
+				id: "7EA151DE99BAB635"
+				item: "minecraft:cauldron"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3CF80B565EBF4A82"]
+			id: "7DDBC12DD95092BA"
+			tasks: [{
+				id: "361F221E35697624"
+				item: "kubejs:andesite_mesh"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["076CBB1DA0C8DE97"]
+			id: "10E8BEC4A316C867"
+			tasks: [{
+				id: "100F6E63A2CE7600"
+				item: "gtceu:crushed_sphalerite_ore"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["10E8BEC4A316C867"]
+			id: "1C6766437AC41544"
+			tasks: [{
+				id: "20324B6DB97FD1BC"
+				item: "gtceu:zinc_ingot"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1C6766437AC41544"]
+			id: "4A7C52554BFD71D2"
+			tasks: [{
+				id: "3C61381ED9D8359A"
+				item: "kubejs:zinc_mesh"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"005F1814F28F65D0"
+				"4A7C52554BFD71D2"
+			]
+			id: "3AA701BF0A6F1F49"
+			tasks: [{
+				id: "50049005FA9404B1"
+				item: "kubejs:brass_mesh"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["3BD00B6F4D892693"]
+			id: "489BD9E7BE6BCB5A"
+			tasks: [{
+				id: "7C4DB1C4FA60D6D3"
+				item: "kubejs:crushed_andesite"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BD00B6F4D892693"]
+			id: "2361D4729B5D1793"
+			tasks: [{
+				id: "71437CCB368CE502"
+				item: "kubejs:crushed_diorite"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3BD00B6F4D892693"]
+			id: "2532C8F5261B3CC2"
+			tasks: [{
+				id: "19977B93F7677628"
+				item: "kubejs:crushed_granite"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.0d
 		}
 	]
 	title: "Create"

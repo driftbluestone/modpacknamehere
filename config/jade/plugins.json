@@ -51,6 +51,12 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "mysticalagradditions": {
+    "infused_farmland": true
+  },
   "pipez": {
     "pipe": true
   },
@@ -73,6 +79,11 @@
   },
   "corpse": {
     "corpse": true
+  },
+  "mysticalagriculture": {
+    "infused_farmland": true,
+    "crop": true,
+    "inferium_crop": true
   },
   "ae2": {
     "part_icon": true,

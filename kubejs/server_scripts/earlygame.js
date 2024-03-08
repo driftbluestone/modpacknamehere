@@ -175,7 +175,7 @@ ServerEvents.recipes(event => {
      .rpm(16)
      event.recipes.gtceu.kinetic_crusher('crush_end_stone')             
      .itemInputs('minecraft:end_stone')
-     .itemOutputs('kubejs:crushed_endstone')
+     .itemOutputs('kubejs:crushed_end_stone')
      .duration(80)
      .EUt(0)
      .inputStress(4096)

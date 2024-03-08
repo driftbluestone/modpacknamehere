@@ -5,7 +5,7 @@
 	group: "7ED1FE704F1E2139"
 	icon: "sophisticatedbackpacks:backpack"
 	id: "0E67542BE4004DDB"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -126,71 +126,6 @@
 			}]
 			x: 5.0d
 			y: 1.0d
-		}
-		{
-			id: "4D8F47B4189111E6"
-			tasks: [{
-				id: "2C72C262B030D71C"
-				item: "mysticalagriculture:inferium_furnace"
-				type: "item"
-			}]
-			x: 0.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["4D8F47B4189111E6"]
-			id: "64FC00D1332073EC"
-			tasks: [{
-				id: "5ECDCC1165056D08"
-				item: "mysticalagriculture:prudentium_furnace"
-				type: "item"
-			}]
-			x: 1.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["64FC00D1332073EC"]
-			id: "43D64853AC4ECB1F"
-			tasks: [{
-				id: "487D499390590B0E"
-				item: "mysticalagriculture:tertium_furnace"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["43D64853AC4ECB1F"]
-			id: "325D4575CDD6CFD7"
-			tasks: [{
-				id: "2BCA4D0AA0F42041"
-				item: "mysticalagriculture:imperium_furnace"
-				type: "item"
-			}]
-			x: 3.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["325D4575CDD6CFD7"]
-			id: "6EF4D3DAD3E0A4B2"
-			tasks: [{
-				id: "5B7F79A909CE7C5C"
-				item: "mysticalagriculture:supremium_furnace"
-				type: "item"
-			}]
-			x: 4.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["6EF4D3DAD3E0A4B2"]
-			id: "41F7B087E7C83B10"
-			tasks: [{
-				id: "4E8790E0A1C791A5"
-				item: "mysticalagriculture:awakened_supremium_furnace"
-				type: "item"
-			}]
-			x: 5.0d
-			y: 2.0d
 		}
 	]
 	title: "Miscellaneous"

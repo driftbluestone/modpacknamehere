@@ -1,0 +1,106 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics"
+	group: "7ED1FE704F1E2139"
+	icon: "ae2:controller"
+	id: "5E0F97EF53A9B9F4"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "712C34F760536055"
+			tasks: [{
+				id: "0FE7D048899AD645"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "54D7224ABBD905FA"
+			tasks: [{
+				id: "2CF4F97573747A12"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["712C34F760536055"]
+			id: "484A49E86E52BB48"
+			tasks: [{
+				id: "03EEDCBEB29BBF10"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["484A49E86E52BB48"]
+			id: "05AFB55983529202"
+			tasks: [{
+				id: "7047876920CDB4E7"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			id: "4D4E023B3EA9D96C"
+			tasks: [{
+				id: "0D2FCF6B4F560720"
+				item: "ae2:calculation_processor_press"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			id: "6BCE9B8F04FEC3B6"
+			tasks: [{
+				id: "7E85E240128CC17A"
+				item: "ae2:silicon_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "2E69ADFE5DA39F1E"
+			tasks: [{
+				id: "7914A9036E88EB15"
+				item: "ae2:logic_processor_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "2F701E3BD81554CE"
+			tasks: [{
+				id: "5A1635A27EFD7CB2"
+				item: "ae2:engineering_processor_press"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "62FA2F61E69FCC0E"
+			size: 3.0d
+			tasks: [{
+				id: "7ECF8F7CFF7F3AA6"
+				title: "note: very incomplete (obviously)"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+	title: "Applied Energistics"
+}

@@ -181,7 +181,7 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 4.0d
+			x: 6.0d
 			y: 6.0d
 		}
 		{
@@ -192,7 +192,7 @@
 				item: "kubejs:dust"
 				type: "item"
 			}]
-			x: 6.0d
+			x: 8.0d
 			y: 6.0d
 		}
 		{
@@ -255,31 +255,6 @@
 		}
 		{
 			dependencies: [
-				"23B0118E9495340C"
-				"6E69933C0305C19E"
-			]
-			id: "464EB524D4F8F7EE"
-			tasks: [{
-				id: "30F9CD62E5C22287"
-				item: "kubejs:iron_mesh"
-				type: "item"
-			}]
-			x: 12.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["5B1028607227FD4F"]
-			id: "005F1814F28F65D0"
-			tasks: [{
-				id: "2A18494908BB4AA5"
-				item: "kubejs:copper_mesh"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
 				"26A9371AC6A82341"
 				"77B90919EAD6E28D"
 			]
@@ -337,31 +312,6 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["1C6766437AC41544"]
-			id: "4A7C52554BFD71D2"
-			tasks: [{
-				id: "3C61381ED9D8359A"
-				item: "kubejs:zinc_mesh"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 6.0d
-		}
-		{
-			dependencies: [
-				"005F1814F28F65D0"
-				"4A7C52554BFD71D2"
-			]
-			id: "3AA701BF0A6F1F49"
-			tasks: [{
-				id: "50049005FA9404B1"
-				item: "kubejs:brass_mesh"
-				type: "item"
-			}]
-			x: 16.0d
-			y: 8.0d
-		}
-		{
 			dependencies: ["3BD00B6F4D892693"]
 			id: "489BD9E7BE6BCB5A"
 			tasks: [{
@@ -370,7 +320,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3BD00B6F4D892693"]
@@ -381,7 +331,7 @@
 				type: "item"
 			}]
 			x: 8.0d
-			y: 6.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["3BD00B6F4D892693"]
@@ -392,7 +342,7 @@
 				type: "item"
 			}]
 			x: 10.0d
-			y: 6.0d
+			y: 4.0d
 		}
 	]
 	title: "Create"

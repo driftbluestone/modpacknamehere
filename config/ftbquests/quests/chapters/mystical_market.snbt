@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mystical_market"
+	group: "3E803ED8505E45EB"
+	id: "0CC4349FD4F5735C"
+	order_index: 9
+	quest_links: [ ]
+	quests: [ ]
+	title: "Mystical Market"
+}

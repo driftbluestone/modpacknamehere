@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "insanely_endgame"
+	group: "3E803ED8505E45EB"
+	id: "591E4404E1EDCE57"
+	order_index: 4
+	quest_links: [ ]
+	quests: [ ]
+	title: "Insanely Endgame"
+}

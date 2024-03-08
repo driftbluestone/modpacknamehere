@@ -1,6 +1,9 @@
 {
 	chapter_groups: [
 		{ id: "139AD7746EBBC736", title: "Pre-Electricity" }
+		{ id: "793A31B3820927F2", title: "Electrical Age" }
+		{ id: "09429583B78B0607", title: "Post UV" }
 		{ id: "7ED1FE704F1E2139", title: "Progression" }
+		{ id: "3E803ED8505E45EB", title: "Shop" }
 	]
 }

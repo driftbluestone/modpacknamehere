@@ -1,0 +1,11 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "neverending_nouveau"
+	group: "3E803ED8505E45EB"
+	id: "24DE08361C58F418"
+	order_index: 10
+	quest_links: [ ]
+	quests: [ ]
+	title: "Attaining Ars Nouveau"
+}

@@ -1,11 +1,13 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "early_electricity"
 	group: "3E803ED8505E45EB"
+	icon: "gtceu:basic_electronic_circuit"
 	id: "068549CD4C9D005E"
 	order_index: 1
 	quest_links: [ ]
 	quests: [ ]
-	title: "Early Electricity"
+	title: "Earning Electrical"
 }

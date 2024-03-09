@@ -1,11 +1,141 @@
 {
+	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "preelectricity"
 	group: "3E803ED8505E45EB"
+	icon: "create:andesite_casing"
 	id: "76786E04849014C3"
 	order_index: 0
 	quest_links: [ ]
-	quests: [ ]
-	title: "Shopping for Steam"
+	quests: [
+		{
+			id: "79B22CC629470938"
+			tasks: [{
+				count: 16L
+				id: "12EECE01A509765A"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Unlock Andesite Alloy Trade"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["79B22CC629470938"]
+			icon: "create:andesite_alloy"
+			id: "5D406031577EB3BF"
+			rewards: [{
+				count: 16
+				id: "05EC703F2AD84977"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [{
+				id: "599E5BF103B28649"
+				item: "kubejs:pre_elec_coin"
+				type: "item"
+			}]
+			title: "Andesite Alloy"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7CA42D64A5A64057"]
+			icon: "kubejs:andesite_machine_hull"
+			id: "37F97E3239CB3D16"
+			rewards: [{
+				id: "73F5EB634E9815D9"
+				item: "kubejs:andesite_machine_hull"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: false
+				count: 2L
+				id: "5C06E32BDAA01F49"
+				item: "kubejs:pre_elec_coin"
+				type: "item"
+			}]
+			title: "Andesite Machine Hull"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			id: "7CA42D64A5A64057"
+			tasks: [{
+				id: "47AC87310FEA400F"
+				item: "kubejs:andesite_machine_hull"
+				type: "item"
+			}]
+			title: "Unlock Andesite Machine Hull Trade"
+			x: 0.0d
+			y: 1.0d
+		}
+		{
+			id: "26544CD568F77832"
+			tasks: [{
+				count: 16L
+				id: "7987F73C34D2D3DD"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Unlock Iron Ingot Trade"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["26544CD568F77832"]
+			icon: "minecraft:iron_ingot"
+			id: "216A33FCD6093805"
+			rewards: [{
+				count: 16
+				id: "23935053BC27874B"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25D20A81D41A84B6"
+				item: "kubejs:pre_elec_coin"
+				type: "item"
+			}]
+			title: "Iron Ingot"
+			x: 1.5d
+			y: -1.0d
+		}
+		{
+			id: "06049D04C28BCF0D"
+			tasks: [{
+				count: 64L
+				id: "1D906B8E0000FC45"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Unlock Brass Ingot Trade"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["06049D04C28BCF0D"]
+			icon: "create:brass_ingot"
+			id: "6022F995BC67AFAD"
+			rewards: [{
+				count: 32
+				id: "05FBE3291428D485"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07FDA22D4F909CC6"
+				item: "kubejs:pre_elec_coin"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 2.0d
+		}
+	]
+	title: "Purchasing Pre-Elec"
 }

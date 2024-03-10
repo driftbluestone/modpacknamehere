@@ -2,6 +2,7 @@
 	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "preelectricity"
 	group: "3E803ED8505E45EB"
 	icon: "create:andesite_casing"
@@ -10,20 +11,8 @@
 	quest_links: [ ]
 	quests: [
 		{
-			id: "79B22CC629470938"
-			tasks: [{
-				count: 16L
-				id: "12EECE01A509765A"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			title: "Unlock Andesite Alloy Trade"
-			x: 0.0d
-			y: 0.0d
-		}
-		{
 			can_repeat: true
-			dependencies: ["79B22CC629470938"]
+			dependencies: ["3CF80B565EBF4A82"]
 			icon: "create:andesite_alloy"
 			id: "5D406031577EB3BF"
 			rewards: [{
@@ -38,12 +27,12 @@
 				type: "item"
 			}]
 			title: "Andesite Alloy"
-			x: 1.5d
-			y: 0.0d
+			x: -1.0d
+			y: 1.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["7CA42D64A5A64057"]
+			dependencies: ["6BE5147B1CA0F58F"]
 			icon: "kubejs:andesite_machine_hull"
 			id: "37F97E3239CB3D16"
 			rewards: [{
@@ -59,35 +48,12 @@
 				type: "item"
 			}]
 			title: "Andesite Machine Hull"
-			x: 1.5d
-			y: 1.0d
-		}
-		{
-			id: "7CA42D64A5A64057"
-			tasks: [{
-				id: "47AC87310FEA400F"
-				item: "kubejs:andesite_machine_hull"
-				type: "item"
-			}]
-			title: "Unlock Andesite Machine Hull Trade"
-			x: 0.0d
-			y: 1.0d
-		}
-		{
-			id: "26544CD568F77832"
-			tasks: [{
-				count: 16L
-				id: "7987F73C34D2D3DD"
-				item: "minecraft:iron_ingot"
-				type: "item"
-			}]
-			title: "Unlock Iron Ingot Trade"
-			x: 0.0d
-			y: -1.0d
+			x: 1.0d
+			y: 2.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["26544CD568F77832"]
+			dependencies: ["178B4C7B8E1E8E33"]
 			icon: "minecraft:iron_ingot"
 			id: "216A33FCD6093805"
 			rewards: [{
@@ -102,24 +68,11 @@
 				type: "item"
 			}]
 			title: "Iron Ingot"
-			x: 1.5d
-			y: -1.0d
-		}
-		{
-			id: "06049D04C28BCF0D"
-			tasks: [{
-				count: 64L
-				id: "1D906B8E0000FC45"
-				item: "create:brass_ingot"
-				type: "item"
-			}]
-			title: "Unlock Brass Ingot Trade"
-			x: 0.0d
-			y: 2.0d
+			x: -1.0d
+			y: 0.0d
 		}
 		{
 			can_repeat: true
-			dependencies: ["06049D04C28BCF0D"]
 			icon: "create:brass_ingot"
 			id: "6022F995BC67AFAD"
 			rewards: [{
@@ -133,8 +86,171 @@
 				item: "kubejs:pre_elec_coin"
 				type: "item"
 			}]
-			x: 1.5d
+			title: "Brass Ingot"
+			x: -1.0d
 			y: 2.0d
+		}
+		{
+			dependencies: [
+				"0AFDF5F26347A52F"
+				"0B4D83C65800DA31"
+				"422331AC5169EB9B"
+				"4FB11C16BD9C7296"
+			]
+			icon: "create:mechanical_press"
+			id: "2D27984185CDEAAD"
+			rewards: [
+				{
+					id: "1E66FB76D0F2B276"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "0388200D4A3E81F5"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "772634B76C288DCD"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4768D6DC1EC0C237"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1380AA0E613BCDBF"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5416BF924E6B2870"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3271CA5AE2B080DB"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7E23543BA831E687"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "027B2A18600D8DF1"
+					item: "create:encased_fan"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7937B19A71E060B0"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "54979623A011CD20"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "333E51853E3E773E"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "78B01755F29E520A"
+				item: "kubejs:pre_elec_coin"
+				type: "item"
+			}]
+			title: "Tier 1 Machines Pack"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:ulv_kinetic_sieve"
+			id: "1F04347A8F75000D"
+			rewards: [
+				{
+					id: "384F5920D39CAD1B"
+					item: "gtceu:ulv_kinetic_crusher"
+					type: "item"
+				}
+				{
+					id: "6E86E6CFB9D6BF80"
+					item: "gtceu:ulv_kinetic_sieve"
+					type: "item"
+				}
+				{
+					id: "7B10DD87F6405384"
+					item: "gtceu:ulv_kinetic_squeezer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "3FE2BB2A232A1734"
+				item: "kubejs:pre_elec_coin"
+				type: "item"
+			}]
+			title: "Tier 2 Machines Pack"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			id: "69C2DA3F88FBD080"
+			rewards: [
+				{
+					count: 2
+					id: "76E194F76F74DF5F"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7C97CC483628C784"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "24E42585539B1314"
+					item: "create:smart_chute"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "796A65D884C9795B"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4C61DDBD458FDF60"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "0D5B343FBA5AD20B"
+				item: "kubejs:pre_elec_coin"
+				type: "item"
+			}]
+			title: "Tier 3 Machines Pack"
+			x: 3.0d
+			y: 0.0d
 		}
 	]
 	title: "Purchasing Pre-Elec"

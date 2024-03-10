@@ -2,12 +2,1463 @@
 	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "early_electricity"
 	group: "3E803ED8505E45EB"
 	icon: "gtceu:basic_electronic_circuit"
 	id: "068549CD4C9D005E"
 	order_index: 1
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: "gtceu:basic_electronic_circuit"
+			id: "6BBC67CF2C9201D6"
+			rewards: [{
+				count: 16
+				id: "161F2D2CEC432290"
+				item: "gtceu:basic_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4CF011F4805F3AD9"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Circuits"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:good_electronic_circuit"
+			id: "5F1675CF810345DF"
+			rewards: [{
+				count: 16
+				id: "33D0CBEC0748BEB1"
+				item: "gtceu:good_electronic_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "08CAF1374AED22A1"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Circuits"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:advanced_integrated_circuit"
+			id: "57A70513B7EDD697"
+			rewards: [{
+				count: 16
+				id: "441F2F33CF0711F9"
+				item: "gtceu:advanced_integrated_circuit"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5FA76B7160F483AE"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Circuits"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:micro_processor_computer"
+			id: "16F6B4E56A00266B"
+			rewards: [{
+				count: 16
+				id: "16449115E0DC4A67"
+				item: "gtceu:micro_processor_computer"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "726E7FC78D394CEA"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Circuits"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:micro_processor_mainframe"
+			id: "28FC1A111E348667"
+			rewards: [{
+				count: 16
+				id: "15BCF343063F183E"
+				item: "gtceu:micro_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "023597E6EAD98820"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Circuits"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:nano_processor_mainframe"
+			id: "56BDB0C7DACE5767"
+			rewards: [{
+				count: 16
+				id: "3E4447E8A4630065"
+				item: "gtceu:nano_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "1F990B75CD1C01D9"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Circuits"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:quantum_processor_mainframe"
+			id: "513D81042FDC680B"
+			rewards: [{
+				count: 16
+				id: "49EDBCAF73DE4990"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "0CEF59BF70392C36"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Circuits"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:crystal_processor_mainframe"
+			id: "663C2AC8B1FA45A7"
+			rewards: [{
+				count: 16
+				id: "071D0045FF4759F5"
+				item: "gtceu:crystal_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "6A43D993CB4EDAFF"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Circuits"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:wetware_processor_mainframe"
+			id: "65960D52CBDED782"
+			rewards: [{
+				count: 16
+				id: "2B9F58D14CA61845"
+				item: "gtceu:wetware_processor_mainframe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "5F72036F93CB2CFB"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UHV Circuits"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:cupronickel_coil_block"
+			id: "70B5B6BA4CB9D37C"
+			rewards: [{
+				count: 8
+				id: "1E74FC6FAC7CE7E6"
+				item: "gtceu:cupronickel_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "53470238E5793613"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "Cupronickel Coils"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			icon: "gtceu:kanthal_coil_block"
+			id: "6ECEDE5A5CC4B1C6"
+			rewards: [{
+				count: 8
+				id: "6B5F9E381AA672D4"
+				item: "gtceu:kanthal_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "550C4535DFA73F7F"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "Kanthal Coils"
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			icon: "gtceu:nichrome_coil_block"
+			id: "586324DDF5EB98B4"
+			rewards: [{
+				count: 8
+				id: "50E77AB85782D0B5"
+				item: "gtceu:nichrome_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "21F6E6E2A6E0F402"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "Nichrome Coils"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:rtm_alloy_coil_block"
+			id: "7CDA80F6AF198496"
+			rewards: [{
+				count: 8
+				id: "3B86805A22ADB901"
+				item: "gtceu:rtm_alloy_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "5AA8DEFC2232441B"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "RTM Alloy Coils"
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:hssg_coil_block"
+			id: "3C091264C511118E"
+			rewards: [{
+				count: 8
+				id: "0588803144312457"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "12AE1DD6D4FBA9BF"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HSS-G Coils"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:naquadah_coil_block"
+			id: "43A21DCEF3BB6CD5"
+			rewards: [{
+				count: 8
+				id: "2BF67138452CD896"
+				item: "gtceu:naquadah_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "008332F4317064E7"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "Naquadah Coils"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:trinium_coil_block"
+			id: "022DB0FFE523BEFB"
+			rewards: [{
+				count: 8
+				id: "4A0E8114AEF1E4CD"
+				item: "gtceu:trinium_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "17C32BF55CA38DDB"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "Trinium Coils"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:tritanium_coil_block"
+			id: "2937C377663FC3BD"
+			rewards: [{
+				count: 8
+				id: "557D814FB3C4B017"
+				item: "gtceu:tritanium_coil_block"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "740D25E03324CF76"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "Tritanium Coils"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:lv_electric_motor"
+			id: "4ADE7897BC534947"
+			rewards: [{
+				count: 8
+				id: "107809858F191C59"
+				item: "gtceu:lv_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21A75C1CD7C4B672"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Motors"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:mv_electric_motor"
+			id: "6A4F0E1361A25F76"
+			rewards: [{
+				count: 8
+				id: "0D3AF006B8C99F9B"
+				item: "gtceu:mv_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "561CE41DB5A47436"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Motors"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:hv_electric_motor"
+			id: "58A2B4642AA80BF5"
+			rewards: [{
+				count: 8
+				id: "51FD663C532A6066"
+				item: "gtceu:hv_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7BD2EFCBC3F10C48"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Motors"
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:ev_electric_motor"
+			id: "683E77F6163D48CA"
+			rewards: [{
+				count: 8
+				id: "1F021BE0E485AA69"
+				item: "gtceu:ev_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ED3AE05337F50EF"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Motors"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:iv_electric_motor"
+			id: "295799DDDC04ABD2"
+			rewards: [{
+				count: 8
+				id: "582D9EC0583F2C1F"
+				item: "gtceu:iv_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3286C6D7AA898161"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Motors"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:luv_electric_motor"
+			id: "13E53EA649264BE4"
+			rewards: [{
+				count: 8
+				id: "086711B374E624FE"
+				item: "gtceu:luv_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47AE90B281F1C878"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Motors"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:zpm_electric_motor"
+			id: "10ACCE65358C15BB"
+			rewards: [{
+				count: 8
+				id: "3888F680B31B92DC"
+				item: "gtceu:zpm_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "10BAF00774A8CD82"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Motors"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:uv_electric_motor"
+			id: "20A07CC5DFAF887F"
+			rewards: [{
+				count: 8
+				id: "761DDDEDC2EB3E40"
+				item: "gtceu:uv_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2787F2D43A5401AC"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Motors"
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:uhv_electric_motor"
+			id: "1C7526C403634FCF"
+			rewards: [{
+				count: 8
+				id: "6B68C90BA1582EE3"
+				item: "gtceu:uhv_electric_motor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A7FB7ED52A195B"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UHV Motors"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			icon: "gtceu:lv_electric_piston"
+			id: "3D3B0B7842744B6E"
+			rewards: [{
+				count: 8
+				id: "7BC0A47D1A74CA11"
+				item: "gtceu:lv_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "321B0B293C73D768"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Pistons"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:mv_electric_piston"
+			id: "1B5E91B18F501C72"
+			rewards: [{
+				count: 8
+				id: "7149CF0D7943A11E"
+				item: "gtceu:mv_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4FDB100E8EFBEA9A"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Pistons"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:hv_electric_piston"
+			id: "7BB9153B003A864B"
+			rewards: [{
+				count: 8
+				id: "7FBC4BBF7CB75AB3"
+				item: "gtceu:hv_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "46BF6DFEE0B13192"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Pistons"
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:ev_electric_piston"
+			id: "33AC7AB28C10B5D6"
+			rewards: [{
+				count: 8
+				id: "51CC0E4131DE75A1"
+				item: "gtceu:ev_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35CBC19EEB4FC585"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Pistons"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:iv_electric_piston"
+			id: "7521AD6F746D66F4"
+			rewards: [{
+				count: 8
+				id: "3367C8B68911D02C"
+				item: "gtceu:iv_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1D4560596F985692"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Pistons"
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:luv_electric_piston"
+			id: "2973E870669352AC"
+			rewards: [{
+				count: 8
+				id: "6A403F2EF5EF3037"
+				item: "gtceu:luv_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D982BC2F0D4285E"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Pistons"
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:zpm_electric_piston"
+			id: "0C5FD8BE3292D0C4"
+			rewards: [{
+				count: 8
+				id: "2C76837E7660C8E1"
+				item: "gtceu:zpm_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14DBAA8B24CE1A28"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Piston"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:uv_electric_piston"
+			id: "254FC57B08BBFBB4"
+			rewards: [{
+				count: 8
+				id: "6A79951DC4ACE57F"
+				item: "gtceu:uv_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76F815337CF5CF6F"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Pistons"
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:uhv_electric_piston"
+			id: "3A2420A8E50A0E66"
+			rewards: [{
+				count: 8
+				id: "5430FFC0624362B1"
+				item: "gtceu:uhv_electric_piston"
+				type: "item"
+			}]
+			tasks: [{
+				id: "20FCB94BD4938DA4"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UHV Pistons"
+			x: 8.0d
+			y: 3.0d
+		}
+		{
+			icon: "gtceu:lv_conveyor_module"
+			id: "2E91A6F7DCABE5A4"
+			rewards: [{
+				count: 8
+				id: "445617873B6D19FD"
+				item: "gtceu:lv_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0339D945D2FA18DA"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Conveyors"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:mv_conveyor_module"
+			id: "6E5169276F3F2456"
+			rewards: [{
+				count: 8
+				id: "7333472FCC744457"
+				item: "gtceu:mv_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "71468EBB5215CA70"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Conveyors"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:hv_conveyor_module"
+			id: "1E860CAE37F13B2A"
+			rewards: [{
+				count: 8
+				id: "32549748C9A0B8CB"
+				item: "gtceu:hv_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "461AD87CF339EB11"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Conveyors"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:ev_conveyor_module"
+			id: "2982F531DA1B5F4A"
+			rewards: [{
+				count: 8
+				id: "2EA35C7A52AA79A5"
+				item: "gtceu:ev_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "770E74006D9BADB6"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Conveyors"
+			x: 3.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:iv_conveyor_module"
+			id: "529A9EE0036D2A46"
+			rewards: [{
+				count: 8
+				id: "005A5CC1B9AE8D70"
+				item: "gtceu:iv_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "320D78F93F62EB5C"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Conveyors"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:luv_conveyor_module"
+			id: "3CC4B5C6D47EF42A"
+			rewards: [{
+				count: 8
+				id: "6846120652D2D044"
+				item: "gtceu:luv_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3FC55CBDE9F3CCAD"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Conveyors"
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:zpm_conveyor_module"
+			id: "58D4AA72A7BC3459"
+			rewards: [{
+				count: 8
+				id: "463E110A4C91D84A"
+				item: "gtceu:zpm_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A0EB6FF88390456"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Conveyors"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:uv_conveyor_module"
+			id: "08EFCDC74AF1241B"
+			rewards: [{
+				count: 8
+				id: "5C827DF7F50A7B0F"
+				item: "gtceu:uv_conveyor_module"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3F85E4F907C0BDBF"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Conveyors"
+			x: 7.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:uhv_conveyor_module"
+			id: "0AB5F19EA419C88D"
+			rewards: [{
+				count: 8
+				id: "36DFA63C10575C57"
+				item: "gtceu:uhv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6A92BA84096DC390"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			icon: "gtceu:lv_electric_pump"
+			id: "3C7125EA745FCF6F"
+			rewards: [{
+				count: 8
+				id: "227D89B8550387C0"
+				item: "gtceu:lv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1093C944C5D92723"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Pumps"
+			x: 0.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:mv_electric_pump"
+			id: "1954927F5F5B6D06"
+			rewards: [{
+				count: 8
+				id: "59F7C07E9D499BC3"
+				item: "gtceu:mv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "53DBC18501792393"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Pumps"
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:hv_electric_pump"
+			id: "7A8FE84102CA69F8"
+			rewards: [{
+				count: 8
+				id: "4DF7D096AD20173A"
+				item: "gtceu:hv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3EB66F2FE55FE486"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Pumps"
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:ev_electric_pump"
+			id: "651B767360364A95"
+			rewards: [{
+				count: 8
+				id: "2423295C21A40A30"
+				item: "gtceu:ev_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B549C504EF01A1C"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Pumps"
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:iv_electric_pump"
+			id: "548EEE0F853EE7F3"
+			rewards: [{
+				count: 8
+				id: "524A973D72BF1A6E"
+				item: "gtceu:iv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54AB3B19237A44AD"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Pumps"
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:luv_electric_pump"
+			id: "0B1BE255F474741E"
+			rewards: [{
+				count: 8
+				id: "4D375DBC60815131"
+				item: "gtceu:luv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "59A1110FB272263E"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Pumps"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:zpm_electric_pump"
+			id: "2ECD731BEC363B34"
+			rewards: [{
+				count: 8
+				id: "5B51D17139EF55F9"
+				item: "gtceu:zpm_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1E719873766A86A9"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Pumps"
+			x: 6.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:uv_electric_pump"
+			id: "55F53EB0471935DC"
+			rewards: [{
+				count: 8
+				id: "66D7904535A1E579"
+				item: "gtceu:uv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "65E0F2B6E9F1CEC5"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Pumps"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:uhv_electric_pump"
+			id: "4BAA003BE13D60A6"
+			rewards: [{
+				count: 8
+				id: "2182246BE4150021"
+				item: "gtceu:uhv_electric_pump"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5ADC0089E074A19E"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UHV Pumps"
+			x: 8.0d
+			y: 5.0d
+		}
+		{
+			icon: "gtceu:lv_emitter"
+			id: "0F4CD70A52E80E6A"
+			rewards: [{
+				count: 8
+				id: "0442B16202C088A7"
+				item: "gtceu:lv_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B164AA16582D802"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Emitters"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:lv_sensor"
+			id: "5262D689B315EF94"
+			rewards: [{
+				count: 8
+				id: "34BE42259140B6E8"
+				item: "gtceu:lv_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4453C96FA2A3CA30"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Sensors"
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:mv_emitter"
+			id: "6348F8CEABFBC39A"
+			rewards: [{
+				count: 8
+				id: "5A6D85799FB71834"
+				item: "gtceu:mv_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12A11BF09F79BB5F"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Emitters"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:mv_sensor"
+			id: "41C62C9BC4DFDFC2"
+			rewards: [{
+				count: 8
+				id: "2FF2A52E54A9112C"
+				item: "gtceu:mv_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B34BA7DBC777432"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Sensors"
+			x: 1.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:hv_emitter"
+			id: "68F72E098A05743D"
+			rewards: [{
+				count: 8
+				id: "447D7948CC46E4FC"
+				item: "gtceu:hv_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "290519F2E81307E6"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Emitters"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:hv_sensor"
+			id: "6ECA34EE866A765B"
+			rewards: [{
+				count: 8
+				id: "2C64874668C06683"
+				item: "gtceu:hv_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "430850691377F9CE"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Sensors"
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:ev_emitter"
+			id: "2A761F708CF2BD21"
+			rewards: [{
+				count: 8
+				id: "23EF83677C0614A5"
+				item: "gtceu:ev_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "706FDD014938E2C0"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Emitters"
+			x: 3.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:ev_sensor"
+			id: "6EA26E91801C3B92"
+			rewards: [{
+				count: 8
+				id: "4E6A12BFF1C620DB"
+				item: "gtceu:ev_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32D9B94FC1D41F66"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Sensors"
+			x: 3.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:iv_emitter"
+			id: "0E1CA1B46889594E"
+			rewards: [{
+				count: 8
+				id: "102A5EB3480DC6E2"
+				item: "gtceu:iv_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E7F77F671C17036"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Emitters"
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:iv_sensor"
+			id: "4E940D773FC4C9FF"
+			rewards: [{
+				count: 8
+				id: "5D4241E6C9B7A0BC"
+				item: "gtceu:iv_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B47BE48F231542F"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Sensors"
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:luv_emitter"
+			id: "5157F621C4AFEA55"
+			rewards: [{
+				count: 8
+				id: "0407352562C82FE4"
+				item: "gtceu:luv_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "37DE75C2EF9CE334"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Emitters"
+			x: 5.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:luv_sensor"
+			id: "106BAD0CA559A6B5"
+			rewards: [{
+				count: 8
+				id: "1BA0D86013186A16"
+				item: "gtceu:luv_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5496CF06392A8E9F"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Sensors"
+			x: 5.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:zpm_emitter"
+			id: "6A79ED1BFC6B7770"
+			rewards: [{
+				count: 8
+				id: "2FB0E29ACE2B395A"
+				item: "gtceu:zpm_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "67A5E95D14135BC6"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Emitters"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:zpm_sensor"
+			id: "7FFD0478641293CA"
+			rewards: [{
+				count: 8
+				id: "0FC3DDBB4274D521"
+				item: "gtceu:zpm_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "242A14DE9601E171"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Sensors"
+			x: 6.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:uv_emitter"
+			id: "40BA6F1B57850534"
+			rewards: [{
+				count: 8
+				id: "3083098FDB1BD7B8"
+				item: "gtceu:uv_emitter"
+				type: "item"
+			}]
+			tasks: [{
+				id: "425843A36AC4B6B7"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Emitters"
+			x: 7.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:uv_sensor"
+			id: "05DECE5EB36984FD"
+			rewards: [{
+				count: 8
+				id: "5EEDEB617A240A5C"
+				item: "gtceu:uv_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70FCB84B98B29A46"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Sensors"
+			x: 7.0d
+			y: 7.0d
+		}
+		{
+			id: "03E23CB8CB033633"
+			tasks: [{
+				id: "1ECF9A7DA7A8748C"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UHV Emitters"
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			icon: "gtceu:uhv_sensor"
+			id: "72CB46CDC0D4B5F4"
+			rewards: [{
+				count: 8
+				id: "13F41E58A3BA9442"
+				item: "gtceu:uhv_sensor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "13D0D5420DCC676C"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UHV Sensors"
+			x: 8.0d
+			y: 7.0d
+		}
+		{
+			icon: "gtceu:lv_robot_arm"
+			id: "50EF2A0F0183478A"
+			rewards: [{
+				count: 4
+				id: "3A95844A0CDC5EC3"
+				item: "gtceu:lv_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2035E92F594DA8CC"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LV Robot Arms"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:mv_robot_arm"
+			id: "00280651DBF078FE"
+			rewards: [{
+				count: 4
+				id: "1D3CFAC7BD355C95"
+				item: "gtceu:mv_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5F0D37D2B0AB18F9"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "MV Robot Arms"
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:hv_robot_arm"
+			id: "43BB2B8DAB1D674C"
+			rewards: [{
+				count: 4
+				id: "328201C59C4DDB6D"
+				item: "gtceu:hv_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "17C99617B2C3AAD2"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "HV Robot Arms"
+			x: 2.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:ev_robot_arm"
+			id: "3B298CD09FC8D892"
+			rewards: [{
+				count: 4
+				id: "62C3DB7BA49CC270"
+				item: "gtceu:ev_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D794EC28731297E"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "EV Robot Arms"
+			x: 3.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:iv_robot_arm"
+			id: "25D5FB1A3CFCFF13"
+			rewards: [{
+				count: 4
+				id: "117BA7176EB931B9"
+				item: "gtceu:iv_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06D7B726FA13B7B7"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "IV Robot Arms"
+			x: 4.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:luv_robot_arm"
+			id: "2AFC0CEC8E84F48E"
+			rewards: [{
+				count: 4
+				id: "0EAC6B0BD2AE27A5"
+				item: "gtceu:luv_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "21EAD9E0F5B7EB1B"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "LuV Robot Arms"
+			x: 5.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:zpm_robot_arm"
+			id: "0929B58B2FA4EA11"
+			rewards: [{
+				count: 4
+				id: "799B92599180DD21"
+				item: "gtceu:zpm_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D1DD64ED9156421"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "ZPM Robot Arms"
+			x: 6.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:uv_robot_arm"
+			id: "78F52F28F40A47E6"
+			rewards: [{
+				count: 4
+				id: "6D448F369B62F078"
+				item: "gtceu:uv_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48EFF9E359D57CCE"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UV Robot Arms"
+			x: 7.0d
+			y: 8.0d
+		}
+		{
+			icon: "gtceu:uhv_robot_arm"
+			id: "54EF72418E3704D4"
+			rewards: [{
+				count: 4
+				id: "66914F1D9FD28CF0"
+				item: "gtceu:uhv_robot_arm"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E816DC40C4DD472"
+				item: "kubejs:electrical_coin"
+				type: "item"
+			}]
+			title: "UHV Robot Arms"
+			x: 8.0d
+			y: 8.0d
+		}
+	]
 	title: "Earning Electrical"
 }

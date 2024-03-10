@@ -2,12 +2,381 @@
 	consume_items: true
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
+	default_repeatable_quest: true
 	filename: "mystical_market"
 	group: "3E803ED8505E45EB"
 	icon: "ars_nouveau:archmage_spell_book"
 	id: "0CC4349FD4F5735C"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
+	quests: [
+		{
+			icon: "mysticalagriculture:inferium_essence"
+			id: "1BFAEFB7BD5DD028"
+			rewards: [{
+				count: 64
+				id: "7BC6DB3056589B2D"
+				item: "mysticalagriculture:inferium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E9A6273E7206DD1"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Inferium Essence"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "mysticalagriculture:prudentium_essence"
+			id: "467EFD16138824EE"
+			rewards: [{
+				count: 32
+				id: "703810FEF49CD7E3"
+				item: "mysticalagriculture:prudentium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "47DDA43558ECCD5B"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Prudentium Essence"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: "mysticalagriculture:tertium_essence"
+			id: "33DD7830080A67E4"
+			rewards: [{
+				count: 16
+				id: "1117B2E7DB9853FA"
+				item: "mysticalagriculture:tertium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "00B8966A65B50CAE"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Tertium Essence"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			icon: "mysticalagriculture:imperium_essence"
+			id: "06E13D1D465BAD51"
+			rewards: [{
+				count: 8
+				id: "397A9B630868D4D9"
+				item: "mysticalagriculture:imperium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5AC3894B13256AAA"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Imperium Essence"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			icon: "mysticalagriculture:supremium_essence"
+			id: "5365F67ABE3DF861"
+			rewards: [{
+				count: 4
+				id: "67886EEB0D35973C"
+				item: "mysticalagriculture:supremium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3707820ED5955FC0"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Supremium Essence"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "mysticalagriculture:awakened_supremium_essence"
+			id: "7675B10DCAD3120A"
+			rewards: [{
+				id: "345F29C18CEEF7E7"
+				item: "mysticalagriculture:awakened_supremium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "162B7A839691CC3F"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Awakened Supremium Essence"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			icon: "mysticalagradditions:insanium_essence"
+			id: "12A09D29C12381A1"
+			rewards: [{
+				id: "5178AD43B0E81F52"
+				item: "mysticalagradditions:insanium_essence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "146D4CB0AD0780DD"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Insanium Essense"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			icon: "mysticalagriculture:prosperity_shard"
+			id: "7E353772A67F08AF"
+			rewards: [{
+				count: 64
+				id: "2288C2A1A377968D"
+				item: "mysticalagriculture:prosperity_shard"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0C24181A8D1A18D3"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Prosperity Shards"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "botania:twig_wand"
+				tag: {
+					color1: 0
+					color2: 0
+				}
+			}
+			id: "5492C95EC3A262AF"
+			rewards: [
+				{
+					count: 64
+					id: "1363361B26175A65"
+					item: "botania:livingrock"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4BE84BD61B76DC53"
+					item: "botania:livingwood_log"
+					type: "item"
+				}
+				{
+					id: "2B8263B69BE517A9"
+					item: {
+						Count: 1b
+						id: "botania:twig_wand"
+						tag: {
+							color1: 0
+							color2: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "67D8EBFC944FA04F"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Living Pack"
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			icon: "botania:mana_spreader"
+			id: "1E9E919C5F08D854"
+			rewards: [
+				{
+					count: 4
+					id: "4FB7D3EA14CE9EE4"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "07C9A59A54EA1624"
+					item: "botania:redstone_spreader"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1EB39867AFE12272"
+					item: "botania:mana_distributor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "5C8523FAA669F23E"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Moving Mana 1"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			icon: "botania:mana_pool"
+			id: "07304A20E0B3EF57"
+			rewards: [
+				{
+					id: "75400DC2953BECD1"
+					item: "botania:diluted_pool"
+					type: "item"
+				}
+				{
+					id: "4B2C7DF92864D7C5"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+				{
+					id: "0C769790B1495505"
+					item: "botania:fabulous_pool"
+					type: "item"
+				}
+				{
+					id: "0503CDEFA16C9801"
+					item: "botania:mana_tablet"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2430F89DAE163BAA"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Storing Mana"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			icon: "botania:elven_spreader"
+			id: "5447C9E2022592AF"
+			rewards: [{
+				count: 4
+				id: "3E500EE0891923B0"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			tasks: [{
+				id: "103CAC5E5D07EB6E"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Moving Mana 2"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			icon: "botania:gaia_spreader"
+			id: "6535DE50217E6E74"
+			rewards: [{
+				id: "625CD993D95C7AE8"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			tasks: [{
+				id: "40725A9F14DF89E8"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Moving Mana 3"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "botania:mana_tablet"
+				tag: {
+					mana: 500000
+				}
+			}
+			id: "64EC6812E7B11820"
+			rewards: [{
+				id: "13915D0A3CEF765E"
+				item: {
+					Count: 1b
+					id: "botania:mana_tablet"
+					tag: {
+						display: {
+							Name: "[{\"text\":\"Overcharged Mana Tablet\",\"italic\":false}]"
+						}
+						mana: "2147483648"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "78F0FF6FB133CE15"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Mana Top-Up"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			icon: "botania:manasteel_ingot"
+			id: "7A14D02F223E9FFF"
+			rewards: [
+				{
+					count: 16
+					id: "23EDD4DC0763B755"
+					item: "botania:manasteel_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "702F7CE4BD4ABA08"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5A00E1BCB40BD12A"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "19518B68B2967285"
+					item: "botania:mana_string"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6E15FF851A2E2205"
+					item: "botania:mana_powder"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2A47B5233AF401B7"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "More Mana Materials"
+			x: 2.0d
+			y: 2.0d
+		}
+	]
 	title: "Mystical Market"
 }

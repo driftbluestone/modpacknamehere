@@ -254,10 +254,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"26A9371AC6A82341"
-				"77B90919EAD6E28D"
-			]
+			dependencies: ["77B90919EAD6E28D"]
 			id: "5B1028607227FD4F"
 			tasks: [{
 				id: "19712655DA7B80C7"
@@ -265,17 +262,6 @@
 				type: "item"
 			}]
 			x: 16.0d
-			y: 4.0d
-		}
-		{
-			dependencies: ["23B0118E9495340C"]
-			id: "26A9371AC6A82341"
-			tasks: [{
-				id: "7EA151DE99BAB635"
-				item: "minecraft:cauldron"
-				type: "item"
-			}]
-			x: 14.0d
 			y: 4.0d
 		}
 		{
@@ -290,26 +276,15 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["076CBB1DA0C8DE97"]
-			id: "10E8BEC4A316C867"
-			tasks: [{
-				id: "100F6E63A2CE7600"
-				item: "gtceu:crushed_sphalerite_ore"
-				type: "item"
-			}]
-			x: 18.0d
-			y: 2.0d
-		}
-		{
-			dependencies: ["10E8BEC4A316C867"]
+			dependencies: ["018BE3EAB4F7999C"]
 			id: "1C6766437AC41544"
 			tasks: [{
 				id: "20324B6DB97FD1BC"
 				item: "gtceu:zinc_ingot"
 				type: "item"
 			}]
-			x: 18.0d
-			y: 4.0d
+			x: 16.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["3BD00B6F4D892693"]
@@ -343,6 +318,28 @@
 			}]
 			x: 10.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["076CBB1DA0C8DE97"]
+			id: "018BE3EAB4F7999C"
+			tasks: [{
+				id: "3CF0EC3F3FA97878"
+				item: "gtceu:crushed_sphalerite_ore"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["076CBB1DA0C8DE97"]
+			id: "5ED29312C2559377"
+			tasks: [{
+				id: "266E5201C7868771"
+				item: "gtceu:silicon_dioxide_dust"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -2.0d
 		}
 	]
 	title: "Create"

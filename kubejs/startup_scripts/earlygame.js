@@ -86,3 +86,19 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
             .rotationState(RotationState.NON_Y_AXIS)
             .workableTieredHullRenderer("gtceu:block/machines/macerator");
     })
+GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
+        event.create('kinetic_squeezer')
+            .category('squeezer')
+            .setEUIO('in')
+            .setMaxIOSize(1, 1, 1, 1)
+            .setSlotOverlay(false, false, GuiTextures.SOLIDIFIER_OVERLAY)
+            .setProgressBar(GuiTextures.PROGRESS_BAR_ARROW, FillDirection.LEFT_TO_RIGHT)
+            .setSound(GTSoundEntries.MACERATOR)
+    })
+GTCEuStartupEvents.registry('gtceu:machine', event => {
+        event.create('kinetic_squeezer', 'kinetic', GTValues.ULV)
+            .recipeType('kinetic_squeezer', true, true)
+            .tankScalingFunction(tier => tier * 8000)
+            .rotationState(RotationState.NON_Y_AXIS)
+            .workableTieredHullRenderer("gtceu:block/machines/macerator");
+    })

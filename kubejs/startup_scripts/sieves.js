@@ -51,7 +51,6 @@ GTCEuStartupEvents.registry('gtceu:machine', event => {
 GTCEuStartupEvents.registry('gtceu:machine', event => {
     event.create('kinetic_sieve', 'kinetic', GTValues.ULV)
         .recipeType('kinetic_sieve', true, true)
-        .tankScalingFunction(tier => tier * 8000)
         .rotationState(RotationState.NON_Y_AXIS)
         .workableTieredHullRenderer("gtceu:block/machines/sifter");
 })

@@ -8,6 +8,102 @@
 	id: "6FE3A22703E14795"
 	order_index: 2
 	quest_links: [ ]
-	quests: [ ]
-	title: "All About AE2"
+	quests: [
+		{
+			icon: "ae2:engineering_processor"
+			id: "048A74748A9E36EB"
+			rewards: [
+				{
+					count: 16
+					id: "67FD4D14E150D022"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4B516AC165640F8D"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4BCF1A1675347084"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "2CB1BED617E73244"
+				item: "kubejs:storage_mod_coin"
+				type: "item"
+			}]
+			title: "More Processors"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "ae2:fluix_glass_cable"
+			id: "7500F54CDCE9015A"
+			rewards: [
+				{
+					count: 64
+					id: "64A5C1B51D624304"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+				{
+					count: 64
+					id: "03E01AB85BE531F8"
+					item: "ae2:fluix_glass_cable"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3A2A1DB681DD70CD"
+				item: "kubejs:storage_mod_coin"
+				type: "item"
+			}]
+			title: "Cables Pack 1"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			icon: "ae2:fluix_smart_cable"
+			id: "09F6E1B60C0F22C5"
+			rewards: [{
+				count: 64
+				id: "68DA0AECAEDD3604"
+				item: "ae2:fluix_smart_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AC25E438FA0BC70"
+				item: "kubejs:storage_mod_coin"
+				type: "item"
+			}]
+			title: "Cables Pack 2"
+			x: 1.0d
+			y: 1.0d
+		}
+		{
+			icon: "ae2:fluix_smart_dense_cable"
+			id: "468E65C4E247134A"
+			rewards: [{
+				count: 32
+				id: "105369412B05760E"
+				item: "ae2:fluix_smart_dense_cable"
+				type: "item"
+			}]
+			tasks: [{
+				id: "106A574073572635"
+				item: "kubejs:storage_mod_coin"
+				type: "item"
+			}]
+			title: "Cables Pack 3"
+			x: 1.0d
+			y: 2.0d
+		}
+	]
+	title: "Shopping For Storage"
 }

@@ -287,6 +287,7 @@
 			icon: "botania:gaia_spreader"
 			id: "6535DE50217E6E74"
 			rewards: [{
+				count: 2
 				id: "625CD993D95C7AE8"
 				item: "botania:gaia_spreader"
 				type: "item"
@@ -310,7 +311,7 @@
 			}
 			id: "64EC6812E7B11820"
 			rewards: [{
-				id: "13915D0A3CEF765E"
+				id: "0AB89833C2F824B3"
 				item: {
 					Count: 1b
 					id: "botania:mana_tablet"
@@ -318,7 +319,7 @@
 						display: {
 							Name: "[{\"text\":\"Overcharged Mana Tablet\",\"italic\":false}]"
 						}
-						mana: "2147483648"
+						mana: 1000000
 					}
 				}
 				type: "item"
@@ -376,6 +377,166 @@
 			title: "More Mana Materials"
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			icon: "botania:white_mystical_flower"
+			id: "1F30370D001E4E37"
+			rewards: [
+				{
+					count: 16
+					id: "0AD0A06DA6BA5B38"
+					item: "botania:white_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0718FCA51954BCB8"
+					item: "botania:light_gray_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "081BA9C838192259"
+					item: "botania:gray_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6781A9BBBC98238C"
+					item: "botania:black_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1EE2C0C544281A3F"
+					item: "botania:brown_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4FBAB193C0118588"
+					item: "botania:red_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6ABB454559322E7B"
+					item: "botania:orange_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7CC5A1AF5F0B9EA0"
+					item: "botania:yellow_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6031D4215026704B"
+					item: "botania:lime_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4D2A1FAEBB1A783D"
+					item: "botania:green_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "229B7CD13B87F711"
+					item: "botania:cyan_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "416B1EDBC3E4100E"
+					item: "botania:light_blue_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0C2C9F0CE2087B55"
+					item: "botania:blue_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "055315E8F0BFFCB5"
+					item: "botania:purple_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "06EFB425552A429A"
+					item: "botania:magenta_mystical_flower"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "779A98D60E9F2453"
+					item: "botania:pink_mystical_flower"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7681C918855A6AC7"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Flowers Pack"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			icon: "botania:mana_pylon"
+			id: "1461BEFE4AFD2AE6"
+			rewards: [{
+				count: 4
+				id: "0795E01E95FF5884"
+				item: "botania:mana_pylon"
+				type: "item"
+			}]
+			tasks: [{
+				id: "176849C2313FDFAF"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Parcel o' Pylons"
+			x: 1.0d
+			y: 4.0d
+		}
+		{
+			icon: "botania:dragonstone"
+			id: "29C35D21E2DEF528"
+			rewards: [
+				{
+					count: 16
+					id: "2474E89B36F03EBE"
+					item: "botania:elementium_ingot"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "41BBD34A4A547654"
+					item: "botania:pixie_dust"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4C7BDE9568649478"
+					item: "botania:dragonstone"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "24673853C664F042"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Elven Materials"
+			x: 2.0d
+			y: 3.0d
 		}
 	]
 	title: "Mystical Market"

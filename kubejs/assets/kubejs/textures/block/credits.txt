@@ -1,1 +1,8 @@
 andesite_machine_casing from create mod
+crushed_andesite by ShibuInu, with base design from minecraft
+crushed_diorite by ShibuInu, with base design from minecraft
+crushed_granite by ShibuInu, with base design from minecraft
+crushed_basalt by ShibuInu, with base design from minecraft
+crushed_blackstone by ShibuInu, with base design from minecraft
+crushed_netherrack by ShibuInu, with base design from minecraft
+crushed_endstone by ShibuInu, with base design from minecraft

@@ -538,6 +538,148 @@
 			x: 2.0d
 			y: 3.0d
 		}
+		{
+			icon: "ars_nouveau:blue_archwood_sapling"
+			id: "3AC788C1DCD48E7E"
+			rewards: [
+				{
+					count: 16
+					id: "537984B34B328C7C"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6D8A588BBBA244D6"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0CDF0572BEE6D12B"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5FE0EFB812BA2859"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "3AD955FB2D8A3C62"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Archwood Saplings"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			icon: "ars_nouveau:source_gem"
+			id: "08BC2987785FB1FB"
+			rewards: [{
+				count: 64
+				id: "5332597E051BA32F"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6308120493217C3D"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Source Gems"
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			icon: "ars_nouveau:abjuration_essence"
+			id: "318A941961CB7C29"
+			rewards: [
+				{
+					count: 8
+					id: "2253C8FB78DDFC15"
+					item: "ars_nouveau:abjuration_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "2DDE38B2721D9BB3"
+					item: "ars_nouveau:conjuration_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "56B8BCD51BD4DBBE"
+					item: "ars_nouveau:air_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "24C19E2606660345"
+					item: "ars_nouveau:earth_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "59427507C5A5B4E4"
+					item: "ars_nouveau:manipulation_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "64837CDB7496EDBC"
+					item: "ars_nouveau:fire_essence"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1340A7A8F41C3E9A"
+					item: "ars_nouveau:water_essence"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "47F9DC738B53C4DF"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			title: "Ars Nouveau Essences"
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			id: "14E47B5AF4647893"
+			tasks: [{
+				id: "35EFA1A1E7CFD1AC"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			id: "4B136D3DAE95F1DE"
+			tasks: [{
+				id: "2C9A42DF665D577C"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			id: "080887E135A8A0F3"
+			tasks: [{
+				id: "553329B7E6A65425"
+				item: "kubejs:magic_coin"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.0d
+		}
 	]
 	title: "Mystical Market"
 }

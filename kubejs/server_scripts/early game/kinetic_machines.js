@@ -1,5 +1,5 @@
 
-ServerEvent.recipes(event => {
+ServerEvents.recipes(event => {
 
     event.shaped('gtceu:ulv_kinetic_sieve', [
         'ABA',

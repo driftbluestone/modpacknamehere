@@ -1,3 +1,4 @@
+const KineticWorkableTieredHullMachineRenderer = Java.loadClass('com.gregtechceu.gtceu.client.renderer.machine.KineticWorkableTieredHullMachineRenderer');
 
 // Creating the recipes
 GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
@@ -30,19 +31,19 @@ GTCEuStartupEvents.registry('gtceu:recipe_type', event => {
 // Creating the machines
 GTCEuStartupEvents.registry('gtceu:machine', event => {
 
-    event.create('kinetic_sieve', 'kinetic', 'ulv')
+    event.create('kinetic_sieve', 'kinetic', GTValues.ULV)
         .recipeType('kinetic_sieve', true, true)
         .rotationState(RotationState.NON_Y_AXIS)
-        .workableTieredHullRenderer("gtceu:block/machines/sifter");
+        .renderer(() => new KineticWorkableTieredHullMachineRenderer(GTValues.ULV, 'kubejs:block/andesite_machine_hull', 'gtceu:block/machines/sifter'));
 
     event.create('kinetic_crusher', 'kinetic', GTValues.ULV)
         .recipeType('kinetic_crusher', true, true)
         .rotationState(RotationState.NON_Y_AXIS)
-        .workableTieredHullRenderer("gtceu:block/machines/macerator");
+        .renderer(() => new KineticWorkableTieredHullMachineRenderer(GTValues.ULV, 'kubejs:block/andesite_machine_hull', 'gtceu:block/machines/macerator'));
 
     event.create('kinetic_squeezer', 'kinetic', GTValues.ULV)
         .recipeType('kinetic_squeezer', true, true)
         .tankScalingFunction(tier => tier * 8000)
         .rotationState(RotationState.NON_Y_AXIS)
-        .workableTieredHullRenderer("gtceu:block/machines/macerator");
+        .renderer(() => new KineticWorkableTieredHullMachineRenderer(GTValues.ULV, 'kubejs:block/andesite_machine_hull', 'gtceu:block/machines/macerator'));
 });

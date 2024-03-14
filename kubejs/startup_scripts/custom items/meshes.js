@@ -32,8 +32,11 @@ const meshtypes = [
 ];
 
 StartupEvents.registry('item', event => {
+
     for (const element of meshtypes) {
-        event.create(`${element.toLowerCase().replace(' ', '_')}_mesh`).displayName(`${element} Mesh`)
+        event.create(`${element.toLowerCase()}_mesh`)
+            .displayName(`${element} Mesh`)
     }
+    
 });
 
